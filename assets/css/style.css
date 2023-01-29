@@ -3,19 +3,20 @@ html {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
-  color: white;
+ 
 }
 
 /* Header ==================================================================== */
 
 .header {
   background-color: #1f2937;
+  padding: 24px 350px;
 }
 
 .navbar {
   display: flex;
   justify-content: flex-start;
-  padding: 15px;
+  padding-bottom: 100px;
 }
 
 .logo {
@@ -38,7 +39,7 @@ a {
 .nav-links {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 25px;
 }
 
 .right-nav {
@@ -47,8 +48,101 @@ a {
 }
 
 .image {
-  background-color: grey;
+  background-color: rgb(128, 128, 128);
   border: 2px solid grey;
-  width: 500px;
+  width: 550px;
   height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+}
+
+.headline-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  padding-bottom: 150px;
+}
+
+.headline {
+  color: #f9faf8;
+  font-size: 48px;
+  width: 350px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.description {
+  width: 450px;
+  font-size: 18px;
+  color: #f9faf8;
+}
+
+.btn {
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  width: 140px;
+  height: 40px;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+/* Section 1 =================================================================== */
+
+.section-title{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    margin: 50px 0;
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    gap: 75px;
+}
+.box{
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+.box-text{
+    width: 150px;
+    text-align: center;
+}
+
+/* Section 2 =================================================================== */
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #E5E7EB;
+
+   
+}
+
+.quote-text{
+    
+    width: 790px;
+    padding: 75px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style:italic;
+}
+
+.author{
+    font-weight: 800;
+    font-size: 24px;
+    margin-left: 225px;
+   
+
 }
